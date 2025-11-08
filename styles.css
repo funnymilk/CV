@@ -1,0 +1,56 @@
+
+/* styles.css – site (responsive) */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;600;700&family=Roboto+Slab:wght@400;700&display=swap');
+:root{
+  --sidebar-bg:#2f3033;
+  --sidebar-body-bg:#f5f6f7;
+  --paper:#ffffff;
+  --text:#111827;
+  --muted:#6b7280;
+  --link:#0e7490;
+}
+*{box-sizing:border-box}
+html{font-family:"Libre Franklin", Arial, sans-serif;color:var(--text);}
+body{background:#f3f4f6;margin:0;padding:32px;}
+a{color:var(--link);text-decoration:none}
+a:hover{text-decoration:underline}
+
+.container{max-width:1000px;margin:0 auto;background:var(--paper);display:grid;grid-template-columns:300px 1fr;gap:30px;border-radius:8px;overflow:hidden;box-shadow:0 6px 20px rgba(0,0,0,0.08);}
+.sidebar{display:grid;grid-template-rows:auto 1fr;min-height:100%;}
+.sidebar-header{background:var(--sidebar-bg);color:#fff;padding:28px 28px 20px 28px;}
+.sidebar-body{background:var(--sidebar-body-bg);color:var(--text);padding:18px 28px 28px 28px;border-right:1px solid #e5e7eb;}
+.name{font-family:"Roboto Slab", serif;font-size:28px;font-weight:700;margin:0 0 6px;}
+.role{color:#f3f4f6;opacity:0.85;margin:0 0 18px;font-size:14px;font-style:italic;}
+.contact{font-size:13px;line-height:1.6;color:#e6e7e8;}
+.contact a{color:#f3f4f6;text-decoration:none;word-break:break-all}
+
+.section-title{font-family:"Roboto Slab", serif;color:var(--text);font-size:18px;margin:0 0 12px;}
+.content{padding:28px;}
+.col-block{margin-bottom:18px;}
+.sidebar-body ul{margin:0 0 0 18px;padding:0;font-size:14px;color:var(--text);line-height:1.5;}
+.sidebar-body ul li{margin-bottom:8px;}
+.projects .item-title{font-weight:600;margin:0 0 6px;}
+.projects .meta{font-size:13px;color:var(--muted);margin-bottom:8px;}
+ul.bullets{margin:6px 0 0 18px;padding:0;color:var(--text)}
+ul.bullets li{margin:6px 0;line-height:1.35;}
+.experience .job{margin-bottom:14px;padding-left:0;padding-bottom:8px}
+.meta-row{display:flex;gap:10px;align-items:center;color:var(--muted);font-size:13px;margin-bottom:8px}
+.footer-note{font-size:12px;color:var(--muted);text-align:right;margin-top:14px}
+
+.badge{display:inline-block;padding:2px 8px;border-radius:999px;border:1px solid #e5e7eb;background:#fff;color:#374151;font-size:12px;margin-right:6px;margin-bottom:6px}
+
+/* Mobile: stack columns, keep same style */
+@media (max-width: 860px){
+  body{padding:16px;}
+  .container{grid-template-columns:1fr;gap:0;border-radius:8px;overflow:hidden}
+  .sidebar-header{padding:22px 22px 14px 22px;}
+  .sidebar-body{border-right:none;border-top:1px solid #e5e7eb;border-bottom:1px solid #e5e7eb;padding:16px 22px;}
+  .content{padding:18px 22px;}
+  .name{font-size:26px}
+}
+
+/* Small phones */
+@media (max-width: 420px){
+  .name{font-size:24px}
+  .meta-row{flex-wrap:wrap;gap:6px}
+}
