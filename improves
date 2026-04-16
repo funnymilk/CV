@@ -1,5 +1,16 @@
-EN:
-9+ years in gamedev, working my way up from QA to team lead and production roles. Specialized in LiveOps and cross-functional coordination — maintained continuity during the Wargaming/Lesta split in 2022, rebuilding processes and pipelines from scratch without stopping releases or new feature and content development. Delivered 12 releases per year on World of Warships, managing teams and driving collaboration across departments. Independently developed and published several games — with hands-on experience across the full product cycle from concept to launch.
+локация: Убрать Санкт-петербург, оставить только релокация / удалённо
 
-RU:
-9+ лет в геймдеве, прошёл путь от QA до тимлида и продакшн-ролей. Специализируюсь на LiveOps направлении и кросс-функциональной координации — обеспечивал непрерывность работы в период разделения Wargaming/Lesta в 2022 году, перестраивая процессы и пайплайны с нуля без остановки релизов и разработки новых фич и контента. Обеспечивал 12 релизов в год на World of Warships/Мир кораблей, управляя командами и выстраивая взаимодействие между командами. Самостоятельно разработал и опубликовал несколько игр — имею практический опыт полного цикла создания продукта от концепта до запуска.
+ru
+Руководил командой из 6 человек (QA и GD) в направлении LiveOps на World of Warships, координируя работу 50+ участников из команд паблишинга, разработки и арта; обеспечивал поверсионную доставку контента в рамках 12 релизов в год, включая сезонные и праздничные кампании.
+Инициировал добавление метрик и подключение UX-исследований (опросы и качественные сессии) для фичи с недостаточным аналитическим покрытием; совместно с аналитиками и UX-командой интерпретировал результаты, выявлял точки трения в пользовательском опыте и формулировал продуктовые решения — включая улучшения на уровне интерфейса.
+Выстроил гибридный процесс управления задачами (планирование, ретроспективы, постмортемы) и установил чёткие процессы обработки контентных запросов, сократив изменения после дедлайна и незапланированные переключения контекста для команд разработки.
+Участвовал в кросс-командном планировании разработки новых фич и итерации существующих, взаимодействуя с командами разработки, продакта и арта — включая регулярную работу с UI/UX дизайнерами по качеству и консистентности интерфейсных решений.
+Самостоятельно проводил найм и онбординг, сформировал эффективные команды QA и GD.
+
+
+en
+Led a team of 6 (QA and GD) within the LiveOps direction on World of Warships, coordinating delivery across 50+ contributors in publishing, development, and art; ensured content delivery across 12 releases per year including seasonal campaigns.
+Initiated metric coverage and UX research (surveys and qualitative sessions) for an underanalysed feature; collaborated with analytics and UX teams to interpret findings, identify friction points in player experience, and inform product decisions — including UI-level improvements.
+Built a hybrid task management process (planning, retrospectives, post-mortems) and established content request workflows, reducing post-deadline changes and unplanned context-switching for development teams.
+Collaborated with cross-functional teams on new feature planning and iteration, working closely with engineering, product, and art — including regular interaction with UI/UX designers on interface quality and consistency.
+Independently conducted hiring and onboarding, building effective QA and GD teams.
